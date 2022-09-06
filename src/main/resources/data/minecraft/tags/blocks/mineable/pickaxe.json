@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#variant_lanterns:lanterns",
+    "#variant_lanterns:soul_lanterns",
+    "#variant_lanterns:redstone_lanterns"
+  ]
+}
