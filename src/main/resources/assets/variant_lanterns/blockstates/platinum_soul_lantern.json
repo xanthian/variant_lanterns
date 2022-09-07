@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "variant_lanterns:block/platinum_soul_lantern"
+    },
+    "hanging=true": {
+      "model": "variant_lanterns:block/platinum_soul_lantern_hanging"
+    }
+  }
+}

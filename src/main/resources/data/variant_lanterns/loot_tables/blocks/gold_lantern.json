@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:lantern"
+          "name": "variant_lanterns:gold_lantern"
         }
       ],
       "rolls": 1.0

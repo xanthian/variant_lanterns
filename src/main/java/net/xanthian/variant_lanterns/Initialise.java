@@ -21,11 +21,9 @@ import java.util.List;
 public class Initialise implements ModInitializer {
 
 	public static final String MOD_ID = "variant_lanterns";
-
 	public static Identifier ID(String path) {
 		return new Identifier(MOD_ID, path);
 	}
-
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	public static final ItemGroup VARIANT_LANTERNS = FabricItemGroupBuilder.build(new Identifier(Initialise.MOD_ID, "variant_lanterns"),
 			() -> new ItemStack(Items.LANTERN));
@@ -36,12 +34,11 @@ public class Initialise implements ModInitializer {
 
 		// Vanilla
 			nuggetTypes.add(Pair.of("gold", new String[0]));
-			nuggetTypes.add(Pair.of("iron", new String[0]));
 			Lanterns.addVanillaLanterns();
 
 		// Tech Reborn
 		if (FabricLoader.getInstance().isModLoaded("techreborn")) {
-			nuggetTypes.add(Pair.of("aluminium", new String[]{"techreborn"}));
+			nuggetTypes.add(Pair.of("aluminum", new String[]{"techreborn"}));
 			nuggetTypes.add(Pair.of("brass", new String[]{"techreborn"}));
 			nuggetTypes.add(Pair.of("bronze", new String[]{"techreborn"}));
 			nuggetTypes.add(Pair.of("chrome", new String[]{"techreborn"}));
@@ -54,7 +51,7 @@ public class Initialise implements ModInitializer {
 			nuggetTypes.add(Pair.of("iridium", new String[]{"techreborn"}));
 			nuggetTypes.add(Pair.of("lead", new String[]{"techreborn"}));
 			nuggetTypes.add(Pair.of("netherite", new String[]{"techreborn"}));
-			nuggetTypes.add(Pair.of("nickle", new String[]{"techreborn"}));
+			nuggetTypes.add(Pair.of("nickel", new String[]{"techreborn"}));
 			nuggetTypes.add(Pair.of("platinum", new String[]{"techreborn"}));
 			nuggetTypes.add(Pair.of("refined_iron", new String[]{"techreborn"}));
 			nuggetTypes.add(Pair.of("silver", new String[]{"techreborn"}));

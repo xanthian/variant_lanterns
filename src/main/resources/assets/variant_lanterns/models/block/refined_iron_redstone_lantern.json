@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_lantern",
+  "textures": {
+    "lantern": "variant_lanterns:block/refined_iron_redstone_lantern"
+  }
+}

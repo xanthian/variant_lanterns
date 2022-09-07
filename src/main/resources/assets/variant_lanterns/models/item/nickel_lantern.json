@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "variant_lanterns:item/nickel_lantern",
+    "layer1": "variant_lanterns:item/_lantern"
+  }
+}

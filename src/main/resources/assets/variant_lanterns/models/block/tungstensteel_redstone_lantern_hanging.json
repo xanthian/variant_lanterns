@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_hanging_lantern",
+  "textures": {
+    "lantern": "variant_lanterns:block/tungstensteel_redstone_lantern"
+  }
+}

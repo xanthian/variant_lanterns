@@ -32,7 +32,7 @@ public class Recipes {
         JsonObject keyList = new JsonObject();
         JsonObject iKey = new JsonObject();
         iKey.addProperty("item",   modPrefix + material + "_nugget");
-        keyList.add("S", iKey);
+        keyList.add("N", iKey);
         json.add("key", keyList);
         iKey = new JsonObject();
                 iKey.addProperty("item",   "minecraft:torch");
@@ -67,7 +67,7 @@ public class Recipes {
         JsonObject keyList = new JsonObject();
         JsonObject iKey = new JsonObject();
         iKey.addProperty("item",   modPrefix + material + "_nugget");
-        keyList.add("S", iKey);
+        keyList.add("N", iKey);
         json.add("key", keyList);
         iKey = new JsonObject();
         iKey.addProperty("item",   "minecraft:soul_torch");
@@ -102,7 +102,7 @@ public class Recipes {
         JsonObject keyList = new JsonObject();
         JsonObject iKey = new JsonObject();
         iKey.addProperty("item",   modPrefix + material + "_nugget");
-        keyList.add("S", iKey);
+        keyList.add("N", iKey);
         json.add("key", keyList);
         iKey = new JsonObject();
         iKey.addProperty("item",   "minecraft:redstone_torch");

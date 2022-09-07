@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "variant_lanterns:block/titanium_redstone_lantern"
+    },
+    "hanging=true": {
+      "model": "variant_lanterns:block/titanium_redstone_lantern_hanging"
+    }
+  }
+}

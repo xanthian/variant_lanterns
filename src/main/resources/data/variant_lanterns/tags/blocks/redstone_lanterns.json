@@ -1,4 +1,6 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    {"id":"variant_lanterns:block/gold_redstone_lantern", "required": false}
+  ]
 }

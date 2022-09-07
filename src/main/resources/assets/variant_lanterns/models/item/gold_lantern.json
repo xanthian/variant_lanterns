@@ -2,6 +2,6 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "variant_lanterns:item/gold_lantern",
-    "layer1": "variant_lanterns:item/light_lantern"
+    "layer1": "variant_lanterns:item/_lantern"
   }
 }
