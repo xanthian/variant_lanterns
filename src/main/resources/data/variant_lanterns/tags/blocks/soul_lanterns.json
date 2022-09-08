@@ -1,6 +1,30 @@
 {
   "replace": false,
   "values": [
-    {"id":"variant_lanterns:block/gold_soul_lantern", "required": false}
+    {"id":"variant_lanterns:gold_soul_lantern", "required": false},
+
+    {"id":"variant_lanterns:aluminum_soul_lantern", "required": false},
+    {"id":"variant_lanterns:brass_soul_lantern", "required": false},
+    {"id":"variant_lanterns:bronze_soul_lantern", "required": false},
+    {"id":"variant_lanterns:chrome_soul_lantern", "required": false},
+    {"id":"variant_lanterns:copper_soul_lantern", "required": false},
+    {"id":"variant_lanterns:diamond_soul_lantern", "required": false},
+    {"id":"variant_lanterns:electrum_soul_lantern", "required": false},
+    {"id":"variant_lanterns:emerald_soul_lantern", "required": false},
+    {"id":"variant_lanterns:hot_tungstensteel_soul_lantern", "required": false},
+    {"id":"variant_lanterns:invar_soul_lantern", "required": false},
+    {"id":"variant_lanterns:iridium_soul_lantern", "required": false},
+    {"id":"variant_lanterns:lead_soul_lantern", "required": false},
+    {"id":"variant_lanterns:netherite_soul_lantern", "required": false},
+    {"id":"variant_lanterns:nickel_soul_lantern", "required": false},
+    {"id":"variant_lanterns:platinum_soul_lantern", "required": false},
+    {"id":"variant_lanterns:refined_iron_soul_lantern", "required": false},
+    {"id":"variant_lanterns:silver_soul_lantern", "required": false},
+    {"id":"variant_lanterns:steel_soul_lantern", "required": false},
+    {"id":"variant_lanterns:tin_soul_lantern", "required": false},
+    {"id":"variant_lanterns:titanium_soul_lantern", "required": false},
+    {"id":"variant_lanterns:tungsten_soul_lantern", "required": false},
+    {"id":"variant_lanterns:tungstensteel_soul_lantern", "required": false},
+    {"id":"variant_lanterns:zinc_soul_lantern", "required": false}
   ]
 }

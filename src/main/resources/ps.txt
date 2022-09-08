@@ -1,0 +1,14 @@
+
+$Array = ("brass", "bronze", "copper", "chrome","diamond","electrum","emerald","hot_tungstensteel", "invar", "iridium", "lead", "netherite", "nickel","platinum", "refined_iron", "silver", "steel", "tin", "titanium", "tungsten", "tungstensteel", "zinc")
+
+ForEach
+
+($nugget in $Array) {
+$nugget2 = $nugget + "_lantern"
+$nugget3 = $nugget + "_redstone_lantern"
+$nugget4 = $nugget + "_soul_lantern"
+##Copy-Item "C:\Users\Xanthian\IdeaProjects\variant_lanterns\src\main\resources\data\variant_lanterns\loot_tables\blocks\gold_lantern.json" -Destination "C:\Users\Xanthian\IdeaProjects\variant_lanterns\src\main\resources\data\variant_lanterns\loot_tables\blocks\$nugget2.json"
+(Get-Content "C:\Users\Xanthian\IdeaProjects\variant_lanterns\src\main\resources\data\variant_lanterns\loot_tables\blocks\gold_lantern.json") -replace 'gold', "$nugget" | Set-Content "C:\Users\Xanthian\IdeaProjects\variant_lanterns\src\main\resources\data\variant_lanterns\loot_tables\blocks\$nugget2.json"
+
+
+}

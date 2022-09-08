@@ -1,6 +1,30 @@
 {
   "replace": false,
   "values": [
-    {"id":"variant_lanterns:block/gold_lantern", "required": false}
+    {"id":"variant_lanterns:gold_lantern", "required": false},
+
+    {"id":"variant_lanterns:aluminum_lantern", "required": false},
+    {"id":"variant_lanterns:brass_lantern", "required": false},
+    {"id":"variant_lanterns:bronze_lantern", "required": false},
+    {"id":"variant_lanterns:chrome_lantern", "required": false},
+    {"id":"variant_lanterns:copper_lantern", "required": false},
+    {"id":"variant_lanterns:diamond_lantern", "required": false},
+    {"id":"variant_lanterns:electrum_lantern", "required": false},
+    {"id":"variant_lanterns:emerald_lantern", "required": false},
+    {"id":"variant_lanterns:hot_tungstensteel_lantern", "required": false},
+    {"id":"variant_lanterns:invar_lantern", "required": false},
+    {"id":"variant_lanterns:iridium_lantern", "required": false},
+    {"id":"variant_lanterns:lead_lantern", "required": false},
+    {"id":"variant_lanterns:netherite_lantern", "required": false},
+    {"id":"variant_lanterns:nickel_lantern", "required": false},
+    {"id":"variant_lanterns:platinum_lantern", "required": false},
+    {"id":"variant_lanterns:refined_iron_lantern", "required": false},
+    {"id":"variant_lanterns:silver_lantern", "required": false},
+    {"id":"variant_lanterns:steel_lantern", "required": false},
+    {"id":"variant_lanterns:tin_lantern", "required": false},
+    {"id":"variant_lanterns:titanium_lantern", "required": false},
+    {"id":"variant_lanterns:tungsten_lantern", "required": false},
+    {"id":"variant_lanterns:tungstensteel_lantern", "required": false},
+    {"id":"variant_lanterns:zinc_lantern", "required": false}
   ]
 }

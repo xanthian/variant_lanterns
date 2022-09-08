@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "variant_lanterns:redstone_lanterns"
+    }
+  ],
+  "result": {
+    "item": "variant_lanterns:iron_redstone_lantern"
+  }
+}

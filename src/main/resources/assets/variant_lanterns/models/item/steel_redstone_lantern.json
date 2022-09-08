@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "variant_lanterns:item/steel_lantern",
+    "layer0": "variant_lanterns:item/steel_lantern2",
     "layer1": "variant_lanterns:item/_redstone_lantern"
   }
 }

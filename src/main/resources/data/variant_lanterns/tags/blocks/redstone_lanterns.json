@@ -1,6 +1,31 @@
 {
   "replace": false,
   "values": [
-    {"id":"variant_lanterns:block/gold_redstone_lantern", "required": false}
+    {"id":"variant_lanterns:gold_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:iron_redstone_lantern", "required": false},
+
+    {"id":"variant_lanterns:aluminum_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:brass_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:bronze_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:chrome_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:copper_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:diamond_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:electrum_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:emerald_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:hot_tungstensteel_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:invar_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:iridium_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:lead_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:netherite_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:nickel_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:platinum_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:refined_iron_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:silver_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:steel_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:tin_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:titanium_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:tungsten_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:tungstensteel_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:zinc_redstone_lantern", "required": false}
   ]
 }
