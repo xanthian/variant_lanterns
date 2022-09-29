@@ -26,6 +26,9 @@
     {"id":"variant_lanterns:titanium_redstone_lantern", "required": false},
     {"id":"variant_lanterns:tungsten_redstone_lantern", "required": false},
     {"id":"variant_lanterns:tungstensteel_redstone_lantern", "required": false},
-    {"id":"variant_lanterns:zinc_redstone_lantern", "required": false}
+    {"id":"variant_lanterns:zinc_redstone_lantern", "required": false},
+
+    {"id":"variant_lanterns:terminite_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:thallasium_redstone_lantern", "required": false}
   ]
 }

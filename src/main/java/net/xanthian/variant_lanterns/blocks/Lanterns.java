@@ -168,6 +168,22 @@ public class Lanterns {
         VariantRedstoneLantern ZINC_REDSTONE_LANTERN = new VariantRedstoneLantern();
         registerLanterns("zinc_redstone_lantern", ZINC_REDSTONE_LANTERN);
     }
+    public static void addBetterEndLanterns() {
+        VariantLantern TERMINITE_LANTERN = new VariantLantern();
+        registerLanterns("terminite_lantern", TERMINITE_LANTERN);
+        VariantSoulLantern TERMINITE_SOUL_LANTERN = new VariantSoulLantern();
+        registerLanterns("terminite_soul_lantern", TERMINITE_SOUL_LANTERN);
+        VariantRedstoneLantern TERMINITE_REDSTONE_LANTERN = new VariantRedstoneLantern();
+        registerLanterns("terminite_redstone_lantern", TERMINITE_REDSTONE_LANTERN);
+        VariantLantern THALLASIUM_LANTERN = new VariantLantern();
+        registerLanterns("thallasium_lantern", THALLASIUM_LANTERN);
+        VariantSoulLantern THALLASIUM_SOUL_LANTERN = new VariantSoulLantern();
+        registerLanterns("thallasium_soul_lantern", THALLASIUM_SOUL_LANTERN);
+        VariantRedstoneLantern THALLASIUM_REDSTONE_LANTERN = new VariantRedstoneLantern();
+        registerLanterns("thallasium_redstone_lantern", THALLASIUM_REDSTONE_LANTERN);
+    }
+
+
         private static void registerLanterns(String Id, Block block) {
         Identifier identifier = new Identifier(Initialise.MOD_ID, Id.toLowerCase());
         Registry.register(Registry.BLOCK, identifier, block);

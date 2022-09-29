@@ -63,5 +63,10 @@ public class Initialise implements ModInitializer {
 			nuggetTypes.add(Pair.of("zinc", new String[]{"techreborn"}));
 			Lanterns.addTechRebornLanterns();
 		}
+		if (FabricLoader.getInstance().isModLoaded("betterend")) {
+			nuggetTypes.add(Pair.of("terminite", new String[]{"betterend"}));
+			nuggetTypes.add(Pair.of("thallasium", new String[]{"betterend"}));
+			Lanterns.addBetterEndLanterns();
+		}
 	}
 }

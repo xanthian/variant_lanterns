@@ -25,6 +25,9 @@
     {"id":"variant_lanterns:titanium_soul_lantern", "required": false},
     {"id":"variant_lanterns:tungsten_soul_lantern", "required": false},
     {"id":"variant_lanterns:tungstensteel_soul_lantern", "required": false},
-    {"id":"variant_lanterns:zinc_soul_lantern", "required": false}
+    {"id":"variant_lanterns:zinc_soul_lantern", "required": false},
+
+    {"id":"variant_lanterns:terminite_soul_lantern", "required": false},
+    {"id":"variant_lanterns:thallasium_soul_lantern", "required": false}
   ]
 }

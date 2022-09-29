@@ -25,6 +25,9 @@
     {"id":"variant_lanterns:titanium_lantern", "required": false},
     {"id":"variant_lanterns:tungsten_lantern", "required": false},
     {"id":"variant_lanterns:tungstensteel_lantern", "required": false},
-    {"id":"variant_lanterns:zinc_lantern", "required": false}
+    {"id":"variant_lanterns:zinc_lantern", "required": false},
+
+    {"id":"variant_lanterns:terminite_lantern", "required": false},
+    {"id":"variant_lanterns:thallasium_lantern", "required": false}
   ]
 }

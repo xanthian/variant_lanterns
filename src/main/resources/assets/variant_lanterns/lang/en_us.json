@@ -77,5 +77,13 @@
   "block.variant_lanterns.tungstensteel_redstone_lantern": "Tungstensteel Redstone Lantern",
   "block.variant_lanterns.zinc_lantern": "Zinc Lantern",
   "block.variant_lanterns.zinc_soul_lantern": "Zinc Soul Lantern",
-  "block.variant_lanterns.zinc_redstone_lantern": "Zinc Redstone Lantern"
+  "block.variant_lanterns.zinc_redstone_lantern": "Zinc Redstone Lantern",
+  
+  "_be": "better end",
+  "block.variant_lanterns.terminite_lantern": "Terminite Lantern",
+  "block.variant_lanterns.terminite_soul_lantern": "Terminite Soul Lantern",
+  "block.variant_lanterns.terminite_redstone_lantern": "Terminite Redstone Lantern",
+  "block.variant_lanterns.thallasium_lantern": "Thallasium Lantern",
+  "block.variant_lanterns.thallasium_soul_lantern": "Thallasium Soul Lantern",
+  "block.variant_lanterns.thallasium_redstone_lantern": "Thallasium Redstone Lantern"
 }
