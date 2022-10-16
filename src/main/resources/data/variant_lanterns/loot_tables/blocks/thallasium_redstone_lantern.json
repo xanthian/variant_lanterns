@@ -3,10 +3,11 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "techreborn"
+        "betterend"
       ]
     }
-  ],  "type": "minecraft:block",
+  ],
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -18,7 +19,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "variant_lanterns:bronze_soul_lantern"
+          "name": "variant_lanterns:thallasium_redstone_lantern"
         }
       ],
       "rolls": 1.0
