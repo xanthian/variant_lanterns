@@ -28,6 +28,10 @@
     {"id":"variant_lanterns:zinc_soul_lantern", "required": false},
 
     {"id":"variant_lanterns:terminite_soul_lantern", "required": false},
-    {"id":"variant_lanterns:thallasium_soul_lantern", "required": false}
+    {"id":"variant_lanterns:thallasium_soul_lantern", "required": false},
+
+    {"id":"variant_lanterns:calorite_soul_lantern", "required": false},
+    {"id":"variant_lanterns:desh_soul_lantern", "required": false},
+    {"id":"variant_lanterns:ostrum_soul_lantern", "required": false}
   ]
 }

@@ -28,6 +28,10 @@
     {"id":"variant_lanterns:zinc_lantern", "required": false},
 
     {"id":"variant_lanterns:terminite_lantern", "required": false},
-    {"id":"variant_lanterns:thallasium_lantern", "required": false}
+    {"id":"variant_lanterns:thallasium_lantern", "required": false},
+
+    {"id":"variant_lanterns:calorite_lantern", "required": false},
+    {"id":"variant_lanterns:desh_lantern", "required": false},
+    {"id":"variant_lanterns:ostrum_lantern", "required": false}
   ]
 }

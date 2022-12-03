@@ -182,7 +182,26 @@ public class Lanterns {
         VariantRedstoneLantern THALLASIUM_REDSTONE_LANTERN = new VariantRedstoneLantern();
         registerLanterns("thallasium_redstone_lantern", THALLASIUM_REDSTONE_LANTERN);
     }
-
+    public static void addAdAstraLanterns() {
+        VariantLantern CALORITE_LANTERN = new VariantLantern();
+        registerLanterns("calorite_lantern", CALORITE_LANTERN);
+        VariantSoulLantern CALORITE_SOUL_LANTERN = new VariantSoulLantern();
+        registerLanterns("calorite_soul_lantern", CALORITE_SOUL_LANTERN);
+        VariantRedstoneLantern CALORITE_REDSTONE_LANTERN = new VariantRedstoneLantern();
+        registerLanterns("calorite_redstone_lantern", CALORITE_REDSTONE_LANTERN);
+        VariantLantern DESH_LANTERN = new VariantLantern();
+        registerLanterns("desh_lantern", DESH_LANTERN);
+        VariantSoulLantern DESH_SOUL_LANTERN = new VariantSoulLantern();
+        registerLanterns("desh_soul_lantern", DESH_SOUL_LANTERN);
+        VariantRedstoneLantern DESH_REDSTONE_LANTERN = new VariantRedstoneLantern();
+        registerLanterns("desh_redstone_lantern", DESH_REDSTONE_LANTERN);
+        VariantLantern OSTRUM_LANTERN = new VariantLantern();
+        registerLanterns("ostrum_lantern", OSTRUM_LANTERN);
+        VariantSoulLantern OSTRUM_SOUL_LANTERN = new VariantSoulLantern();
+        registerLanterns("ostrum_soul_lantern", OSTRUM_SOUL_LANTERN);
+        VariantRedstoneLantern OSTRUM_REDSTONE_LANTERN = new VariantRedstoneLantern();
+        registerLanterns("ostrum_redstone_lantern", OSTRUM_REDSTONE_LANTERN);
+    }
 
         private static void registerLanterns(String Id, Block block) {
         Identifier identifier = new Identifier(Initialise.MOD_ID, Id.toLowerCase());

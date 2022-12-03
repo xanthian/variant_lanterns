@@ -13,18 +13,12 @@ import net.minecraft.util.Identifier;
 import net.xanthian.variant_lanterns.blocks.Lanterns;
 import org.apache.commons.lang3.tuple.Pair;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.util.List;
 
 public class Initialise implements ModInitializer {
 
 	public static final String MOD_ID = "variant_lanterns";
-	public static Identifier ID(String path) {
-		return new Identifier(MOD_ID, path);
-	}
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+
 	public static final ItemGroup VARIANT_LANTERNS = FabricItemGroupBuilder.build(new Identifier(Initialise.MOD_ID, "variant_lanterns"),
 			() -> new ItemStack(Items.LANTERN));
 	public static List<Pair<String, String[]>> nuggetTypes = Lists.newArrayList();
@@ -67,6 +61,13 @@ public class Initialise implements ModInitializer {
 			nuggetTypes.add(Pair.of("terminite", new String[]{"betterend"}));
 			nuggetTypes.add(Pair.of("thallasium", new String[]{"betterend"}));
 			Lanterns.addBetterEndLanterns();
+		}
+		if (FabricLoader.getInstance().isModLoaded("ad_astra")) {
+			nuggetTypes.add(Pair.of("calorite", new String[]{"ad_astra"}));
+			nuggetTypes.add(Pair.of("desh", new String[]{"ad_astra"}));
+			nuggetTypes.add(Pair.of("ostrum", new String[]{"ad_astra"}));
+			//nuggetTypes.add(Pair.of("steel", new String[]{"ad_astra"}));
+			Lanterns.addAdAstraLanterns();
 		}
 	}
 }

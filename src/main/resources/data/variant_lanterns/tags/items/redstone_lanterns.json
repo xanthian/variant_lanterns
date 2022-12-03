@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     {"id":"variant_lanterns:gold_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:iron_redstone_lantern", "required": false},
 
     {"id":"variant_lanterns:aluminum_redstone_lantern", "required": false},
     {"id":"variant_lanterns:brass_redstone_lantern", "required": false},
@@ -28,6 +29,10 @@
     {"id":"variant_lanterns:zinc_redstone_lantern", "required": false},
 
     {"id":"variant_lanterns:terminite_redstone_lantern", "required": false},
-    {"id":"variant_lanterns:thallasium_redstone_lantern", "required": false}
+    {"id":"variant_lanterns:thallasium_redstone_lantern", "required": false},
+
+    {"id":"variant_lanterns:calorite_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:desh_redstone_lantern", "required": false},
+    {"id":"variant_lanterns:ostrum_redstone_lantern", "required": false}
   ]
 }

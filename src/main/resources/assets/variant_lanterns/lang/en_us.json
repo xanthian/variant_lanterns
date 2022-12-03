@@ -85,5 +85,16 @@
   "block.variant_lanterns.terminite_redstone_lantern": "Terminite Redstone Lantern",
   "block.variant_lanterns.thallasium_lantern": "Thallasium Lantern",
   "block.variant_lanterns.thallasium_soul_lantern": "Thallasium Soul Lantern",
-  "block.variant_lanterns.thallasium_redstone_lantern": "Thallasium Redstone Lantern"
+  "block.variant_lanterns.thallasium_redstone_lantern": "Thallasium Redstone Lantern",
+
+  "_aa": "ad astra",
+  "block.variant_lanterns.calorite_lantern": "Calorite Lantern",
+  "block.variant_lanterns.calorite_soul_lantern": "Calorite Soul Lantern",
+  "block.variant_lanterns.calorite_redstone_lantern": "Calorite Redstone Lantern",
+  "block.variant_lanterns.desh_lantern": "Desh Lantern",
+  "block.variant_lanterns.desh_soul_lantern": "Desh Soul Lantern",
+  "block.variant_lanterns.desh_redstone_lantern": "Desh Redstone Lantern",
+  "block.variant_lanterns.ostrum_lantern": "Ostrum Lantern",
+  "block.variant_lanterns.ostrum_soul_lantern": "Ostrum Soul Lantern",
+  "block.variant_lanterns.ostrum_redstone_lantern": "Ostrum Redstone Lantern"
 }
